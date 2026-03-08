@@ -4,6 +4,7 @@ This repository documents a production-mimicked network architecture designed fo
 
 Network Topology & Segmentation:
 The infrastructure is logically segmented into three distinct zones to ensure that laboratory experiments, guest traffic, and core management remain isolated.
+
 [Internet]
     |
 [Core Gateway] 10.0.0.1 (ISP Uplink)
@@ -14,6 +15,8 @@ The infrastructure is logically segmented into three distinct zones to ensure th
               |
               +--- [Lab Router] 10.0.0.3 (Wired) ----> Subnet: 192.168.1.0/24
                                                         (RHEL & Windows Lab)
+
+
 Logical Address Management (IPAM)
 
 CORE ZONE (10.0.0.0/24)
@@ -37,7 +40,7 @@ Hardened Security & Anti-Reconnaissance Logic:
 By implementing a custom 10.0.0.0/24 range on the core backbone, the infrastructure neutralizes automated reconnaissance scripts, CSRF exploits, and malware that specifically target default consumer-grade gateways (192.168.0.1 or 192.168.1.1). This adds a critical layer of Security by Obscurity.
 
 2. Invisible Infrastructure (RF Silence):
-Both the Extender and the Lab Router operate with SSID and Radio Frequency (RF) disabled. This eliminates wireless noise and ensures the laboratory environment remains invisible to unauthorized WiFi scanners, enforcing a strictly wired, high-stability environment.
+Both the Extender and the Lab Router operate with SSID and Radio Frequency (RF) disabled. This eliminates wireless interference and ensures the laboratory environment remains invisible to unauthorised Wi-Fi scanners, thereby enforcing a strictly wired, high-stability environment.
 
 3. Segmented Traffic Isolation:
 Guest Network: Connected directly to the Core via Ethernet to prevent congestion on the Lab backbone. Features Client Isolation and Cloudflare Family DNS (1.1.1.3) for real-time malware filtering.
