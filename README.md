@@ -80,6 +80,15 @@ C. ISOLATED DMZ ZONE (Guest Router)
 * Layer-2 Peer Isolation: Enabled on Guest Gateway
 * Infrastructure Philosophy: Defence in Depth & Least Privilege Access
 
+## Tech Stack
+* Operating Systems: RHEL, Windows Server
+* Virtualisation: [VMware Workstation & Hyper-V]
+* Networking: Advanced Routing & Segmentation
+
+## Status
+* Status: Development Phase
+
+
 ===============================================================================
 [ AUTHOR'S NOTE ]
 ===============================================================================
