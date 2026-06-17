@@ -23,7 +23,7 @@ System Status : Fully Optimised
                            └───────┬───────┘
                                    │
          ┌─────────────────────────┴─────────────────────────┐
-         ▼ (WAN: 10.0.0.2 Reserved)                         ▼ (WAN: 10.0.0.3 Reserved)
+         ▼ (WAN: 10.0.0.2 Reserved)                          ▼ (WAN: 10.0.0.3 Reserved)
 ┌──────────────────┐                                ┌──────────────────┐
 │    Lab Router    │                                │   Guest Router   │
 │   192.168.100.1  │                                │   172.16.0.1     │
