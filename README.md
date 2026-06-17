@@ -44,13 +44,13 @@ A. CORE PERIMETER ZONE (Main Router)
    - Subnet Range     : 10.0.0.0/24
    - Primary Gateway  : 10.0.0.1
    - DHCP Scope       : 10.0.0.100 - 10.0.0.110
-   - Static IP Leases  : 10.0.0.2 -> Lab Router WAN, 10.0.0.3 -> Guest Router WAN
+   - Static IP Leases : 10.0.0.2 -> Lab Router WAN, 10.0.0.3 -> Guest Router WAN
 
 B. SANDBOX / DATA CENTER ZONE (Lab Router)
    - Subnet Range     : 192.168.100.0/24
    - Subnet Gateway   : 192.168.100.1
    - Static IP Leases : 192.168.100.253 (Laptop), 192.168.100.254 (Host)
-   - Active Node Map   : 192.168.100.241 (RHEL-Lab), 192.168.100.242 (DHCP-Primary), 192.168.100.243 (DHCP-Secondary)
+   - Active Node Map  : 192.168.100.241 (RHEL-Lab), 192.168.100.242 (DHCP-Primary), 192.168.100.243 (DHCP-Secondary)
    - Offline Master   : RHEL-MS (Golden Baseline Image)
 
 C. ISOLATED DMZ ZONE (Guest Router)
