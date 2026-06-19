@@ -29,7 +29,7 @@ System Status : Fully Optimised
 │   192.168.100.1  │                                │   172.16.0.1     │
 └────────┬─────────┘                                └────────┬─────────┘
          │ (RF/SSID Disabled - Wired Only)                   │ (Client Isolation Enabled)
-         ├─► 192.168.100.253 (Window                         └─► DHCP Pool: 172.16.0.100 - .254
+         ├─► 192.168.100.253 (Laptop Reserved)               └─► DHCP Pool: 172.16.0.100 - .254
          ├─► 192.168.100.254 (Host Desktop Reserved)             [ Isolated Guest Zone ]
          ├─► 192.168.100.201 (Windows Server -Domain Controller) 
          ├─► 192.168.100.241 (RHEL-Lab Server)
