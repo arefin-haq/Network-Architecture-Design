@@ -1,3 +1,6 @@
+## Network Diagram
+![Network Architecture Design](Network.drawio.png)
+
 # Network Architecture Design
 ## Overview
 This project documents a custom-built, secure network architecture designed for a home & lab environment. It emphasises network segmentation, defence-in-depth principles, and strict access control across three distinct zones.
