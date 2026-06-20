@@ -1,3 +1,8 @@
+![Network Architecture Design](diagrams/Network.drawio.png)
+
+
+
+
 
 # Network Architecture Design
 ## Overview
