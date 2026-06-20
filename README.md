@@ -1,5 +1,3 @@
-## Network Diagram
-![Network Architecture Design](Network.drawio.png)
 
 # Network Architecture Design
 ## Overview
